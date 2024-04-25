@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Run bible
+Comment=A Nemo Work-around
+Exec=/home/ash/Projects/bible/bible.sh
+Icon=/home/ash/Projects/bible/share/icons/small.ico
+Terminal=false
+Type=Application
