@@ -6,13 +6,12 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Apr 27 00:59:58 2024
+# Make data base, printed on Sat Apr 27 15:26:14 2024
 
 # Variables
 
 # environment
 GDK_BACKEND = x11
- 
 # environment
 LC_ALL = C
 # makefile (from 'Makefile', line 32)
@@ -39,6 +38,7 @@ MAKE_COMMAND := make
 GTK3_MODULES = xapp-gtk3-module
 # environment
 QT_ACCESSIBILITY = 1
+ 
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # makefile (from 'Makefile', line 43)
@@ -116,7 +116,7 @@ MAKEFILE_LIST := Makefile bin/dbg/src/trie.cpp.d bin/dbg/src/bible.cpp.d bin/dbg
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 14136
+VSCODE_PID = 2199
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -126,13 +126,12 @@ MD_RES :=  [bin/dbg/src_PRESENT]  [bin/dbg/rsc_PRESENT]
 # makefile (from 'Makefile', line 42)
 BLD := bin/dbg
 # environment
-SESSION_MANAGER = local/ashX:@/tmp/.ICE-unix/1425,unix/ashX:/tmp/.ICE-unix/1425
+SESSION_MANAGER = local/ashX:@/tmp/.ICE-unix/1430,unix/ashX:/tmp/.ICE-unix/1430
 # makefile (from 'Makefile', line 34)
 RSC := rsc
 # automatic
 *F = $(notdir $*)
 # makefile (from 'Makefile', line 100)
- 
 DEL_BLD := 
 # environment
 QT_QPA_PLATFORMTHEME = qt5ct
@@ -181,7 +180,6 @@ IDIRS := -Iinc
 # environment
 CINNAMON_VERSION = 6.0.4
 # makefile (from 'Makefile', line 29)
- 
 REL := rel
 # makefile (from 'Makefile', line 27)
 OBJCPY := ld -r -b binary
@@ -222,7 +220,6 @@ EXE := bible
 # environment
 XDG_VTNR = 7
 # makefile
- 
 .DEFAULT_GOAL := all
 # environment
 DISPLAY = :0
@@ -237,7 +234,7 @@ MAKE_VERSION := 4.3
 # makefile (from 'Makefile', line 58)
 LOGFILE := /home/ash/Projects/bible/log.txt
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 14109
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2180
 # makefile (from 'Makefile', line 93)
 allinBIN := bin/dbg/bible bin/dbg/src/trie.cpp.d bin/dbg/src/bible.cpp.d bin/dbg/src/first.cpp.o bin/dbg/src/widgets.cpp.d bin/dbg/src/GUI.cpp.d bin/dbg/src/trie.cpp.o bin/dbg/src/GUI.cpp.o bin/dbg/src/first.cpp.d bin/dbg/src/bible.cpp.o bin/dbg/src/widgets.cpp.o bin/dbg/rsc/parse.dat.o bin/dbg/rsc/bible.glade.o bin/dbg/rsc/KJV.txt.o bin/dbg/rsc/verse.txt.o bin/dbg/rsc/style.css.o  
 # makefile (from 'Makefile', line 46)
@@ -252,7 +249,6 @@ XDG_RUNTIME_DIR = /run/user/1000
 CFLAGS := -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/x86_64-linux-gnu/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/lib/x86_64-linux-gnu/atkmm-1.6/include -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/x86_64-linux-gnu/giomm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pangomm-1.4 -I/usr/lib/x86_64-linux-gnu/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/x86_64-linux-gnu/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/x86_64-linux-gnu/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/x86_64-linux-gnu/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/x86_64-linux-gnu -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
- 
 # environment
 XDG_SESSION_CLASS = user
 # makefile (from 'Makefile', line 49)
@@ -297,7 +293,6 @@ CXX := g++
 CC = $(FULLCROSS)gcc
 # makefile (from 'Makefile', line 105)
 RUN_SH := bible.sh
- 
 # environment
 GDMSESSION = cinnamon
 # variable set hash-table stats:
@@ -318,6 +313,7 @@ GDMSESSION = cinnamon
 # Implicit Rules
 
 bin/dbg/rsc/%.o: rsc/%
+ 
 #  recipe to execute (from 'Makefile', line 156):
 	@if [ $(suffix $<) = ".rc" ]; then \
 	$(RSCCPY) $< $@ ; \
@@ -333,7 +329,6 @@ bin/dbg/src/%.o: src/%
 	@$(CXX) $(CXX_FLAGS) $(IDIRS) $(CFLAGS) -c $< -o $@
 	@echo new object + depend file compiled [$@ + .d] due to [$?] >> $(LOGFILE)
 
- 
 # 2 implicit rules, 0 (0.0%) terminal.
 # Files
 
@@ -375,7 +370,6 @@ compile: prepbld make_exe
 logsetup:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
- 
 #  Implicit/static pattern stem: ''
 #  File does not exist.
 #  File has been updated.
@@ -423,7 +417,6 @@ logsetup:
 	@echo [DEPS=$(DEPS)] >> $(LOGFILE)
 	@echo [DEL_BLD=$(DEL_BLD)] >> $(LOGFILE)
 	@echo [allinBIN=$(allinBIN)] >> $(LOGFILE)
- 
 	@echo [allinBLD=$(allinBLD)] >> $(LOGFILE)
 	@echo [allinRSC=$(allinRSC)] >> $(LOGFILE)
 	@echo [allinSRC=$(allinSRC)] >> $(LOGFILE)
@@ -470,7 +463,6 @@ Makefile:
 # Not a target:
 bin/dbg/src/first.cpp.d:
 #  Implicit rule search has been done.
- 
 #  Last modified 2024-04-25 17:03:25.641336314
 #  File has been updated.
 #  Successfully updated.
@@ -513,7 +505,6 @@ prepbld:
 	@$(RM) $(DEL_BLD)
 	@echo deleted $(words $(DEL_BLD)) build files [$(DEL_BLD)] >> $(LOGFILE)
 
- 
 # Not a target:
 inc/avlExceptions.hpp:
 #  Implicit rule search has not been done.
@@ -550,7 +541,6 @@ run: all
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
- 
 #  recipe to execute (from 'Makefile', line 113):
 	$(EXE_PFX)./$(BLD)/$(EXE)
 	@echo run completed >> $(LOGFILE)
@@ -596,13 +586,13 @@ inc/GUI.hpp:
 bin/dbg/src/first.cpp.o: inc/first.hpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 
 PHONY: prepbld
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
 
 make_exe: bin/dbg/bible
 #  Phony target (prerequisite of .PHONY).
@@ -649,7 +639,6 @@ inc/AVL_c.hpp:
 # Not a target:
 bin/dbg/src/GUI.cpp.d:
 #  Implicit rule search has been done.
- 
 #  Last modified 2024-04-25 17:03:31.985311523
 #  File has been updated.
 #  Successfully updated.
@@ -668,6 +657,6 @@ bin/dbg/src/GUI.cpp.d:
 # strcache performance: lookups = 141 / hit rate = 54%
 # hash-table stats:
 # Load=64/8192=1%, Rehash=0, Collisions=0/141=0%
-# Finished Make data base on Sat Apr 27 00:59:58 2024
+# Finished Make data base on Sat Apr 27 15:26:14 2024
 
  
