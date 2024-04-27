@@ -5,14 +5,14 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Thu Apr 25 17:04:07 2024
+# Make data base, printed on Sat Apr 27 00:59:58 2024
 
 # Variables
 
 # environment
 GDK_BACKEND = x11
+ 
 # environment
 LC_ALL = C
 # makefile (from 'Makefile', line 32)
@@ -21,12 +21,14 @@ SRC := src
 AR = $(FULLCROSS)ar
 # makefile (from 'Makefile', line 35)
 CWD := /home/ash/Projects/bible
+# environment
+GJS_DEBUG_OUTPUT = stderr
 # makefile (from 'Makefile', line 64)
 BD_ADDS := 
 # environment
 VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # environment
-VSCODE_CWD = /home/ash
+VSCODE_CWD = /home/ash/Projects/bible
 # makefile (from 'Makefile', line 28)
 RSCCPY := windres -O coff
 # environment
@@ -57,6 +59,8 @@ PKG_CONFIG = $(FULLCROSS)pkg-config
 ICONFILE := /home/ash/Projects/bible/share/icons/small.ico
 # environment
 XDG_DATA_DIRS = /usr/share/cinnamon:/usr/share/gnome:/home/ash/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# environment
+OLDPWD = /home/ash
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # makefile (from 'Makefile', line 30)
@@ -87,8 +91,6 @@ BR_ADDS :=
 BFDHEAD := elf64-x86-64
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# environment
-LESSOPEN = | /usr/bin/lesspipe %s
 # makefile (from 'Makefile', line 97)
 SRCS := src/widgets.cpp src/first.cpp src/bible.cpp src/trie.cpp src/GUI.cpp
 # environment
@@ -114,7 +116,7 @@ MAKEFILE_LIST := Makefile bin/dbg/src/trie.cpp.d bin/dbg/src/bible.cpp.d bin/dbg
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 8508
+VSCODE_PID = 14136
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -124,15 +126,15 @@ MD_RES :=  [bin/dbg/src_PRESENT]  [bin/dbg/rsc_PRESENT]
 # makefile (from 'Makefile', line 42)
 BLD := bin/dbg
 # environment
-SESSION_MANAGER = local/ashX:@/tmp/.ICE-unix/1428,unix/ashX:/tmp/.ICE-unix/1428
+SESSION_MANAGER = local/ashX:@/tmp/.ICE-unix/1425,unix/ashX:/tmp/.ICE-unix/1425
 # makefile (from 'Makefile', line 34)
 RSC := rsc
 # automatic
 *F = $(notdir $*)
 # makefile (from 'Makefile', line 100)
+ 
 DEL_BLD := 
 # environment
- 
 QT_QPA_PLATFORMTHEME = qt5ct
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
@@ -157,7 +159,9 @@ SHELL = /bin/sh
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 0
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 1
 # makefile (from 'Makefile', line 57)
 USETERMINAL := false
 # environment
@@ -174,14 +178,15 @@ LANGUAGE = en_US
 ^F = $(notdir $^)
 # makefile (from 'Makefile', line 91)
 IDIRS := -Iinc
+# environment
+CINNAMON_VERSION = 6.0.4
 # makefile (from 'Makefile', line 29)
+ 
 REL := rel
 # makefile (from 'Makefile', line 27)
 OBJCPY := ld -r -b binary
 # makefile (from 'Makefile', line 104)
 RUN_DT := bible.desktop
-# environment
-LESSCLOSE = /usr/bin/lesspipe %s %s
 # makefile (from 'Makefile', line 85)
 RD_RES := 
 # automatic
@@ -207,17 +212,17 @@ ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
- 
 LOGNAME = ash
 # makefile (from 'Makefile', line 96)
 allinSRC := src/widgets.cpp src/first.cpp src/bible.cpp src/trie.cpp src/GUI.cpp
 # environment
-GIO_LAUNCHED_DESKTOP_FILE = /home/ash/Desktop/code.desktop
+GIO_LAUNCHED_DESKTOP_FILE = /home/ash/Projects/bible/launch.desktop
 # makefile (from 'Makefile', line 54)
 EXE := bible
 # environment
 XDG_VTNR = 7
 # makefile
+ 
 .DEFAULT_GOAL := all
 # environment
 DISPLAY = :0
@@ -232,13 +237,13 @@ MAKE_VERSION := 4.3
 # makefile (from 'Makefile', line 58)
 LOGFILE := /home/ash/Projects/bible/log.txt
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 8508
+GIO_LAUNCHED_DESKTOP_FILE_PID = 14109
 # makefile (from 'Makefile', line 93)
 allinBIN := bin/dbg/bible bin/dbg/src/trie.cpp.d bin/dbg/src/bible.cpp.d bin/dbg/src/first.cpp.o bin/dbg/src/widgets.cpp.d bin/dbg/src/GUI.cpp.d bin/dbg/src/trie.cpp.o bin/dbg/src/GUI.cpp.o bin/dbg/src/first.cpp.d bin/dbg/src/bible.cpp.o bin/dbg/src/widgets.cpp.o bin/dbg/rsc/parse.dat.o bin/dbg/rsc/bible.glade.o bin/dbg/rsc/KJV.txt.o bin/dbg/rsc/verse.txt.o bin/dbg/rsc/style.css.o  
 # makefile (from 'Makefile', line 46)
 CXX_FLAGS := -std=c++17  -ggdb
 # environment
-_ = /usr/share/code/code
+_ = /usr/bin/code
 # makefile (from 'Makefile', line 31)
 BIN := bin
 # environment
@@ -247,6 +252,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 CFLAGS := -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/x86_64-linux-gnu/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/lib/x86_64-linux-gnu/atkmm-1.6/include -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/x86_64-linux-gnu/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/x86_64-linux-gnu/giomm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pangomm-1.4 -I/usr/lib/x86_64-linux-gnu/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/x86_64-linux-gnu/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/x86_64-linux-gnu/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/x86_64-linux-gnu/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/x86_64-linux-gnu -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+ 
 # environment
 XDG_SESSION_CLASS = user
 # makefile (from 'Makefile', line 49)
@@ -261,7 +267,6 @@ HOME = /home/ash
 ODIRS := bin/dbg/src bin/dbg/rsc
 # makefile (from 'Makefile', line 63)
 BD_CHK :=  [bin_exists]  [src_exists]  [rsc_exists]  [inc_exists]  [bin/dbg_exists]  [bin/rel_exists]
- 
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
@@ -279,6 +284,10 @@ SUFFIXES :=
 # makefile (from 'Makefile', line 21)
 LD = $(FULLCROSS)ld
 # environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
 XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/ash
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
@@ -288,10 +297,11 @@ CXX := g++
 CC = $(FULLCROSS)gcc
 # makefile (from 'Makefile', line 105)
 RUN_SH := bible.sh
+ 
 # environment
 GDMSESSION = cinnamon
 # variable set hash-table stats:
-# Load=138/1024=13%, Rehash=0, Collisions=37/412=9%
+# Load=142/1024=14%, Rehash=0, Collisions=35/416=8%
 
 # Pattern-specific Variable Values
 
@@ -300,10 +310,10 @@ GDMSESSION = cinnamon
 # Directories
 
 # src (device 2048, inode 11287063): No files, no impossibilities so far.
-# . (device 2048, inode 11286214): 19 files, no impossibilities.
+# . (device 2048, inode 11286214): 22 files, no impossibilities.
 # rsc (device 2048, inode 11287051): No files, no impossibilities so far.
 
-# 19 files, no impossibilities in 3 directories.
+# 22 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -320,10 +330,10 @@ bin/dbg/src/%.o: src/%
 	@$(CXX) $(IDIRS) $< -MM -MT '$@' -MF $(subst .o,.d,$@)
 	@#removing source file from depends file (sed script w/out slash & w/ double quotes for variable expansion):
 	@sed -i "s| $<||g" $(subst .o,.d,$@)
- 
 	@$(CXX) $(CXX_FLAGS) $(IDIRS) $(CFLAGS) -c $< -o $@
 	@echo new object + depend file compiled [$@ + .d] due to [$?] >> $(LOGFILE)
 
+ 
 # 2 implicit rules, 0 (0.0%) terminal.
 # Files
 
@@ -365,6 +375,7 @@ compile: prepbld make_exe
 logsetup:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
+ 
 #  Implicit/static pattern stem: ''
 #  File does not exist.
 #  File has been updated.
@@ -388,7 +399,6 @@ logsetup:
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=21/77=27%
 #  recipe to execute (from 'Makefile', line 172):
- 
 	@echo BUILD LOG `date` > $(LOGFILE)
 	@echo -----\>Cross Compile Variables: >> $(LOGFILE)
 	@echo [FULLCROSS=$(FULLCROSS)] - [BFDHEAD=$(BFDHEAD)] - [LINK_TYPE=$(LINK_TYPE)] >> $(LOGFILE) 
@@ -413,6 +423,7 @@ logsetup:
 	@echo [DEPS=$(DEPS)] >> $(LOGFILE)
 	@echo [DEL_BLD=$(DEL_BLD)] >> $(LOGFILE)
 	@echo [allinBIN=$(allinBIN)] >> $(LOGFILE)
+ 
 	@echo [allinBLD=$(allinBLD)] >> $(LOGFILE)
 	@echo [allinRSC=$(allinRSC)] >> $(LOGFILE)
 	@echo [allinSRC=$(allinSRC)] >> $(LOGFILE)
@@ -458,8 +469,8 @@ Makefile:
 
 # Not a target:
 bin/dbg/src/first.cpp.d:
- 
 #  Implicit rule search has been done.
+ 
 #  Last modified 2024-04-25 17:03:25.641336314
 #  File has been updated.
 #  Successfully updated.
@@ -502,6 +513,7 @@ prepbld:
 	@$(RM) $(DEL_BLD)
 	@echo deleted $(words $(DEL_BLD)) build files [$(DEL_BLD)] >> $(LOGFILE)
 
+ 
 # Not a target:
 inc/avlExceptions.hpp:
 #  Implicit rule search has not been done.
@@ -526,7 +538,6 @@ all: logsetup compile
 #  Command line target.
 #  Implicit rule search has not been done.
 #  File does not exist.
- 
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
@@ -539,6 +550,7 @@ run: all
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
+ 
 #  recipe to execute (from 'Makefile', line 113):
 	$(EXE_PFX)./$(BLD)/$(EXE)
 	@echo run completed >> $(LOGFILE)
@@ -590,6 +602,7 @@ PHONY: prepbld
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
 
 make_exe: bin/dbg/bible
 #  Phony target (prerequisite of .PHONY).
@@ -602,7 +615,6 @@ make_exe: bin/dbg/bible
 # Not a target:
 bin/dbg/rsc/parse.dat.o:
 #  Implicit rule search has not been done.
- 
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -637,6 +649,7 @@ inc/AVL_c.hpp:
 # Not a target:
 bin/dbg/src/GUI.cpp.d:
 #  Implicit rule search has been done.
+ 
 #  Last modified 2024-04-25 17:03:31.985311523
 #  File has been updated.
 #  Successfully updated.
@@ -649,12 +662,12 @@ bin/dbg/src/GUI.cpp.d:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 61 / storage = 839 B / avg = 13 B
-# current buf: size = 8162 B / used = 839 B / count = 61 / avg = 13 B
+# strcache buffers: 1 (0) / strings = 64 / storage = 870 B / avg = 13 B
+# current buf: size = 8162 B / used = 870 B / count = 64 / avg = 13 B
 
-# strcache performance: lookups = 138 / hit rate = 55%
+# strcache performance: lookups = 141 / hit rate = 54%
 # hash-table stats:
-# Load=61/8192=1%, Rehash=0, Collisions=0/138=0%
-# Finished Make data base on Thu Apr 25 17:04:07 2024
+# Load=64/8192=1%, Rehash=0, Collisions=0/141=0%
+# Finished Make data base on Sat Apr 27 00:59:58 2024
 
  
